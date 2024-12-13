@@ -1,0 +1,68 @@
+.front-page-container {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  background: linear-gradient(135deg, #360b29, #5a1240); /* Dark pink gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #ffd9e8; /* Soft light pink for text */
+  padding: 20px;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5); /* Deeper shadow for text */
+  color: #ff95c5; /* Vibrant light pink */
+}
+
+.quote {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  font-style: italic;
+  color: #ffc3d9; /* Soft pink for subtle contrast */
+}
+
+.start-button {
+  background-color: #a02252; /* Deep pink */
+  color: #ffffff; /* White text */
+  font-size: 1.5rem;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Dark shadow for depth */
+}
+
+.start-button:hover {
+  background-color: #c7366e; /* Bright dark pink on hover */
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4); /* Enhance shadow on hover */
+}
+
+.start-button:active {
+  transform: translateY(0); /* Slight reset effect */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .front-page-container {
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .quote {
+    font-size: 1.2rem;
+  }
+
+  .start-button {
+    font-size: 1.2rem;
+    padding: 12px 30px;
+  }
+}
